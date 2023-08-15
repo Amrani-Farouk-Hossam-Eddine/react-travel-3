@@ -16,6 +16,7 @@ const NavBar = () => {
         <FaBars size={20} />
       </div>
       <div
+        onClick={handleNav}
         className={
           nav
             ? "w-full h-full absolute z-10 top-0 left-0 bg-black/90 ease-in-out duration-500 grid place-content-center"
