@@ -9,7 +9,9 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-between items-center px-4 h-16 text-white">
-      <h1 className="text-2xl font-bold relative z-20">Experieces</h1>
+      <h1 className="text-xl sm:text-2xl font-bold relative z-20">
+        Experieces
+      </h1>
       <div onClick={handleNav} className="relative z-20">
         <FaBars size={20} />
       </div>
