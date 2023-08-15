@@ -23,11 +23,21 @@ const NavBar = () => {
         }
       >
         <ul className="text-center text-white text-xl font-bold">
-          <li className="py-8">Home</li>
-          <li className="py-8">Destinitions</li>
-          <li className="py-8">Reservation</li>
-          <li className="py-8">Amenities</li>
-          <li className="py-8">Rooms</li>
+          <li className="py-8">
+            <a href="/">Home</a>
+          </li>
+          <li className="py-8">
+            <a href="#destinitions">Destinitions</a>
+          </li>
+          <li className="py-8">
+            <a href="#reservation">Reservation</a>
+          </li>
+          <li className="py-8">
+            <a href="#amenities">Amenities</a>
+          </li>
+          <li className="py-8">
+            <a href="#rooms">Rooms</a>
+          </li>
         </ul>
       </div>
     </div>

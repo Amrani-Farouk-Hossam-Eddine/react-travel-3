@@ -2,7 +2,10 @@ import React from "react";
 
 const Travel = () => {
   return (
-    <div className="max-w-[1140px] w-full mx-auto grid lg:grid-cols-2 gap-4">
+    <div
+      id="reservation"
+      className="max-w-[1140px] w-full mx-auto grid lg:grid-cols-2 gap-4"
+    >
       <div className="grid grid-cols-2 grid-rows-6 h-[80vh]">
         <img
           src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1368&q=80"
